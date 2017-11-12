@@ -1,0 +1,95 @@
+@import url(public/reset.css);
+html,body{
+	font-size: 62.5%;
+}
+header{
+	width:100%;
+	height:7rem;
+	background:red;
+}
+section{
+	background: #ccc;
+}
+section .about-as{
+	height:2.4rem;
+	font-size: 0.7rem;
+	color: #000000;
+	padding-top: 0.6rem;
+	padding-left: 0.3rem;
+	background:#fff;
+	}
+section .landmark{
+	width: 100%;
+	height: 6rem;
+	background: #fff;
+}
+section .landmark img{
+	width: 100%;
+	height: auto;
+}
+section .CompanyIntroduction{
+	height: auto;
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #fff;	
+}
+section .CompanyIntroduction .ci-title{
+	padding-top: 12px;
+}
+section .CompanyIntroduction .ci-title span{
+	padding-bottom: 2px;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #000000;
+}
+section .CompanyIntroduction .ci-content{
+	margin-top: 8px;
+}
+section .CompanyIntroduction .ci-content span{
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+section .CompanyIntroduction .ci-btn{
+	color: #95bede;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 12px;
+}
+section .CompanyIntroduction .ci-btn span{
+	position: absolute;
+	right:8px ;
+}
+section .productsIntroduction{
+	background: #fff;
+	margin-top: 8px;
+	padding: 0 8px 0 8px;
+}
+section .productsIntroduction .pi-title{
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.4rem;
+	color: #000;
+}
+section .productsIntroduction .pi-content{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+}
+section .productsIntroduction .pi-content .pi-c-one,section .productsIntroduction .pi-content .pi-c-two{
+	display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+	margin-top: 1rem;
+}
+section .productsIntroduction .pi-content dl{
+ background: red;
+ width: 6rem;
+ height: 5rem;
+}
+section .productsIntroduction .pi-content dl dt{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+section .productsIntroduction .pi-content dl dt dd{
+	
+}
