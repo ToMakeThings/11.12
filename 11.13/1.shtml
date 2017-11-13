@@ -1,0 +1,65 @@
+<style>
+html{
+	font-size: 62.5%;
+}
+ body{
+ 	overflow: hidden;
+ }
+.footerBox{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    background: #007ECF;
+    height: 14.4rem;
+    padding: 8px 0;
+    
+}
+.footerBox .groupBox{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+}
+.footerBox .group{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+     
+}
+.footerBox a{
+	color: fff;
+	text-decoration:none;
+}
+.footerBox p{
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+}
+</style>
+<div class="footerBox">
+	<div class="groupBox">
+	<div class="group group1">
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+	</div>
+	<div class="group group2">
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+	</div>
+	<div class="group group3">
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+		<a href="#">三生三世</a>
+	</div>
+	</div>
+	<p>盛世嫡妃收到舒服舒服的说法</p>
+</div>

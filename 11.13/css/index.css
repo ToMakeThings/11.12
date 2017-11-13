@@ -1,0 +1,206 @@
+@import url(public/reset.css);
+html{
+	font-size: 62.5%;
+}
+header{
+	width:100%;
+	height:7rem;
+	background:red;
+}
+section{
+	background: #ccc;
+}
+section .about-as{
+	height:2.4rem;
+	font-size: 0.7rem;
+	color: #000000;
+	padding-top: 0.6rem;
+	padding-left: 0.3rem;
+	background:#fff;
+	}
+section .landmark{
+	width: 100%;
+	height: 6rem;
+	background: #fff;
+}
+section .landmark img{
+	width: 100%;
+	height: auto;
+}
+section .CompanyIntroduction{
+	height: auto;
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	background: #fff;	
+}
+section .CompanyIntroduction .ci-title{
+	padding-top: 12px;
+}
+section .CompanyIntroduction .ci-title span{
+	padding-bottom: 2px;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #000000;
+}
+section .CompanyIntroduction .ci-content{
+	margin-top: 8px;
+}
+section .CompanyIntroduction .ci-content span{
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+section .CompanyIntroduction .ci-btn{
+	color: #95bede;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 12px;
+}
+section .CompanyIntroduction .ci-btn span{
+	position: absolute;
+	right:8px ;
+}
+/*产品介绍*/
+section .productsIntroduction{
+	background: #fff;
+	margin-top: 8px;
+	padding: 0 8px 10px 8px;
+}
+section .productsIntroduction .pi-title{
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.4rem;
+	color: #000;
+}
+section .productsIntroduction .pi-content{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+}
+section .productsIntroduction .pi-content .pi-c-one,section .productsIntroduction .pi-content .pi-c-two{
+	display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+	margin-top: 1rem;
+}
+section .productsIntroduction .pi-content dl{
+ background: red;
+ width: 6rem;
+ height: 5rem;
+}
+section .productsIntroduction .pi-content dl dt{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+section .productsIntroduction .pi-content dl  dd{
+	
+}
+/*新闻中心*/
+section .newsCenter{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 0 8px 10px 8px;
+    margin-top: 1rem;
+}
+section .newsCenter .nc-title{
+	color:#000;
+	font-size: 1.4rem;
+	height: 4rem;
+	line-height: 4rem;
+}
+section .newsCenter .blockGroup{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+}
+section .newsCenter .blockGroup .block{
+	width: 50%;
+	height: auto;
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e6e8;
+	
+}
+section .newsCenter .blockGroup .block:nth-child(1){
+	margin-right: 10px;
+}
+section .newsCenter .blockGroup .bkImg{
+	width: 100%;
+	height: 8.8rem;
+	background: red;
+}
+section .newsCenter .blockGroup .block h4{
+	height: 3.2rem;
+	line-height:3.2rem ;
+	color: #317eac;
+	font-size: 1.6rem;
+	padding-left: 4px;
+}
+section .newsCenter .blockGroup .block p{
+	padding-left: 4px;
+}
+section .newsCenter .blockGroup .block  .moreBox{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content:flex-end; 
+    margin-right: 1.4rem;
+}
+section .newsCenter .blockGroup .block a{
+	text-align: center;
+	display: block;
+	width: 4.6rem;
+	height: 2.4rem;
+	line-height:2.4rem;
+	border: 1px solid #CCCCCC;
+	margin: 1.2rem 0;
+	color: #317eac;
+
+}
+/*联系我们*/
+section .contactUs{
+	background: #fff;
+	padding: 0 8px;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+}
+section .contactUs .cu-title{
+	height: 4rem;
+	line-height: 4rem;
+	color: #000;
+	font-size: 1.6rem;
+}
+section .contactUs .showMessage{
+	padding-left: 1.6rem;
+	font-size: 1.4rem;
+}
+section .contactUs .showMessage div{
+	margin: 1.2rem 0;
+}
+/*个人信息*/
+section .selfMessage{
+	background: #fff;
+	margin-top: 1rem;
+	padding: 10px 8px;
+}
+section .selfMessage div{
+	margin: 1.2rem 0;
+}
+section .selfMessage textarea{
+	width: 90%;
+	height: 5rem;
+	display: block;
+	margin: 0 auto;
+}
+section .selfMessage button{
+	display: block;
+	width: 90%;
+	height: 3rem;
+	background: #007ecf;
+	text-align: center;
+	line-height: 3rem;
+	color: #fff;
+	font-size:1.4rem;
+	margin: 3rem auto;
+}
